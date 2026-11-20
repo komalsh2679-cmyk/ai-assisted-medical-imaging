@@ -1,0 +1,6 @@
+torch
+monai==1.6.1
+nibabel
+numpy
+matplotlib
+gradio
