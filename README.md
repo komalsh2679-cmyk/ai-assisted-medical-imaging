@@ -47,13 +47,10 @@ scaling and foreground cropping.
 
 Before final submission, compare these settings with the exact training
 notebook. Any mismatch must be corrected. The current validation mean Dice
-reported for 13 cases is approximately 0.0206, which indicates poor
-segmentation performance. Do not claim clinical accuracy.
+reported for 13 cases is approximately 0.0206. this Does not claim clinical accuracy.
 
 ## Notes
 
-- The checkpoint is not included in this starter ZIP; copy your existing
-  checkpoint into the `checkpoints` folder.
 - This app expects a 3D NIfTI CT scan (`.nii` or `.nii.gz`).
 - CPU inference may be slow. A CUDA-enabled PyTorch environment is needed
   for GPU inference.
